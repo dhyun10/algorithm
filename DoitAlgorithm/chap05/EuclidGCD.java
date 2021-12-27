@@ -1,4 +1,4 @@
-package chap04;
+package chap05;
 
 import java.util.Scanner;
 
@@ -13,15 +13,15 @@ public class EuclidGCD {
 	public static void main(String[] args) {
 		Scanner stdIn = new Scanner(System.in);
 		
-		System.out.println("µÎ Á¤¼öÀÇ ÃÖ´ë°ø¾à¼ö¸¦ ±¸ÇÕ´Ï´Ù.");
+		System.out.println("ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Õ´Ï´ï¿½.");
 		
-		System.out.print("Á¤¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä. : "); 
+		System.out.print("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½. : "); 
 		int x = stdIn.nextInt();
 
-		System.out.print("Á¤¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä. : "); 
+		System.out.print("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½. : "); 
 		int y = stdIn.nextInt();
 		
-		System.out.println("ÃÖ´ë °ø¾à¼ö´Â "+gcd(x, y)+"ÀÔ´Ï´Ù.");
+		System.out.println("ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ "+gcd(x, y)+"ï¿½Ô´Ï´ï¿½.");
 		
 		stdIn.close();
 	}
