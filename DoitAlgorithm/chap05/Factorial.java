@@ -1,4 +1,4 @@
-package chap05;
+package chap04;
 
 import java.util.Scanner;
 
@@ -14,10 +14,10 @@ public class Factorial {
 	public static void main(String[] args) {
 		Scanner stdIn = new Scanner(System.in);
 		
-		System.out.print("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½. : ");
+		System.out.print("Á¤¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä. : ");
 		int x = stdIn.nextInt();
 		
-		System.err.println(x + "ï¿½ï¿½ ï¿½ï¿½ï¿½ä¸®ï¿½ï¿½ï¿½ï¿½ "+factorial(x)+"ï¿½Ô´Ï´ï¿½.");
+		System.err.println(x + "ÀÇ ÆÑÅä¸®¾óÀº "+factorial(x)+"ÀÔ´Ï´Ù.");
 		
 		stdIn.close();
 	}
