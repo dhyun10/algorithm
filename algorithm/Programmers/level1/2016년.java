@@ -10,10 +10,10 @@
 2016년은 윤년입니다.
 2016년 a월 b일은 실제로 있는 날입니다. (13월 26일이나 2월 45일같은 날짜는 주어지지 않습니다)
  */
-package programmers.level1;
+package Programmers.level1;
 
-public class Solution {
-    public String solution(int a, int b) {
+class Year2016 {
+    public static String solution(int a, int b) {
         String answer = "";
         String []days={"FRI", "SAT", "SUN", "MON", "TUE", "WED", "THU"};
         int []day={31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
