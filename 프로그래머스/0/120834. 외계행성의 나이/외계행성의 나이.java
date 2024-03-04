@@ -3,8 +3,7 @@ class Solution {
         String answer = "";
         String[] str = String.valueOf(age).split("");
         for(String a : str) {
-            int c = Integer.parseInt(a);
-            answer += (char)(c+97);
+            answer += (char)(Integer.parseInt(a)+'a');
         }
         return answer;
     }
